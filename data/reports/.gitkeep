@@ -1,0 +1,4 @@
+# This file ensures the reports directory is tracked in git
+# Generated analytics reports and visualizations stored here
+# Includes PDF, CSV, JSON exports and R analytics outputs
+# Author: Gabriel Demetrios Lafis
