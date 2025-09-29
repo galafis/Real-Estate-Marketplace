@@ -14,3 +14,8 @@ property_id,address,city,state,price,bedrooms,bathrooms,square_feet,year_built,p
 13,159 Magnolia Street,Campinas,SP,890000.00,3,2.5,1900,2016,House,2025-01-28,Active
 14,267 Sycamore Drive,São Luís,MA,420000.00,2,1.0,950,2009,Apartment,2025-02-14,Active
 15,378 Hickory Lane,Maceió,AL,510000.00,2,2.0,1150,2012,Condo,2025-01-16,Sold
+16,481 Walnut Avenue,Natal,RN,695000.00,3,2.0,1650,2017,House,2025-02-15,Active
+17,592 Chestnut Drive,Campo Grande,MS,540000.00,2,1.5,1250,2014,Condo,2025-01-19,Active
+18,603 Cypress Street,João Pessoa,PB,475000.00,2,1.0,1050,2011,Apartment,2025-02-09,Pending
+19,714 Redwood Lane,Teresina,PI,390000.00,1,1.0,800,2010,Apartment,2025-01-27,Active
+20,825 Mahogany Boulevard,Vitória,ES,825000.00,3,2.5,1850,2018,House,2025-02-06,Active
