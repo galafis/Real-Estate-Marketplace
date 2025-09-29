@@ -1,0 +1,16 @@
+property_id,address,city,state,price,bedrooms,bathrooms,square_feet,year_built,property_type,listing_date,status
+1,123 Main Street,São Paulo,SP,850000.00,3,2.0,1800,2015,House,2025-01-15,Active
+2,456 Oak Avenue,Rio de Janeiro,RJ,1200000.00,4,3.0,2400,2018,House,2025-02-01,Active
+3,789 Pine Road,Belo Horizonte,MG,650000.00,2,2.0,1200,2012,Condo,2025-01-20,Active
+4,321 Elm Boulevard,Curitiba,PR,950000.00,3,2.5,2000,2016,House,2025-02-10,Pending
+5,654 Maple Drive,Porto Alegre,RS,720000.00,2,1.5,1400,2010,Condo,2025-01-25,Active
+6,987 Cedar Lane,Brasília,DF,1500000.00,5,4.0,3200,2020,House,2025-02-05,Active
+7,147 Birch Street,Salvador,BA,580000.00,2,2.0,1100,2014,Apartment,2025-01-18,Sold
+8,258 Willow Court,Fortaleza,CE,480000.00,1,1.0,750,2011,Apartment,2025-02-08,Active
+9,369 Spruce Way,Recife,PE,680000.00,3,2.0,1600,2013,Condo,2025-01-30,Active
+10,741 Ash Circle,Manaus,AM,550000.00,2,1.5,1300,2015,Condo,2025-02-12,Active
+11,852 Cherry Avenue,Belém,PA,620000.00,3,2.0,1700,2017,House,2025-01-22,Pending
+12,963 Poplar Road,Goiânia,GO,780000.00,4,3.0,2100,2019,House,2025-02-03,Active
+13,159 Magnolia Street,Campinas,SP,890000.00,3,2.5,1900,2016,House,2025-01-28,Active
+14,267 Sycamore Drive,São Luís,MA,420000.00,2,1.0,950,2009,Apartment,2025-02-14,Active
+15,378 Hickory Lane,Maceió,AL,510000.00,2,2.0,1150,2012,Condo,2025-01-16,Sold
