@@ -1,0 +1,4 @@
+# This file ensures the uploads directory is tracked in git
+# User uploaded files will be stored here
+# Supported formats: CSV, Excel, JSON, Text
+# Author: Gabriel Demetrios Lafis
