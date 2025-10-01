@@ -1,0 +1,10 @@
+graph TD
+    A[Usuário] --> B(Navegador Web)
+    B --> C{Servidor Flask}
+    C --> D[app.py]
+    D -- Renderiza --> E[templates/index.html]
+    D -- API Calls --> F[Rotas da API]
+    F -- Dados --> G[In-memory Data / SQLite]
+    D -- Analytics --> H[analytics.R]
+    E -- Estilos --> I[static/styles.css]
+    E -- Lógica Frontend --> J[static/app.js]

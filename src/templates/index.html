@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real-Estate-Marketplace - Gabriel Demetrios Lafis</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Real-Estate-Marketplace</h1>
+      <p>Advanced solution by Gabriel Demetrios Lafis</p>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <!-- Search and Filters -->
+      <section class="hero">
+        <h2>Find Your Next Property</h2>
+        <form id="filters" class="filters" aria-label="Property filters">
+          <input type="text" id="q" name="q" placeholder="Search title, city, description" aria-label="Search" />
+          <input type="number" id="min_price" name="min_price" placeholder="Min price" min="0" />
+          <input type="number" id="max_price" name="max_price" placeholder="Max price" min="0" />
+          <select id="type" name="type" aria-label="Property type">
+            <option value="">Any type</option>
+            <option value="apartment">Apartment</option>
+            <option value="house">House</option>
+            <option value="penthouse">Penthouse</option>
+          </select>
+          <select id="bedrooms" name="bedrooms" aria-label="Bedrooms">
+            <option value="">Any beds</option>
+            <option value="1">1+</option>
+            <option value="2">2+</option>
+            <option value="3">3+</option>
+            <option value="4">4+</option>
+          </select>
+          <button type="submit">Apply</button>
+          <button type="reset" id="clearFilters" class="secondary">Clear</button>
+        </form>
+      </section>
+
+      <!-- Stats -->
+      <section class="features" aria-live="polite">
+        <h2>Marketplace Stats</h2>
+        <div id="stats" class="stats"></div>
+      </section>
+
+      <!-- Listings -->
+      <section class="features">
+        <h2>Listings</h2>
+        <div id="listings" class="listings" aria-live="polite"></div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      © 2025 Gabriel Demetrios Lafis. All rights reserved.
+      <div class="contact">
+        <a href="mailto:gabrieldemetrios@gmail.com">Email</a>
+        <a href="https://linkedin.com/in/gabriel-demetrios-lafis-62197711b" rel="noopener" target="_blank">LinkedIn</a>
+        <a href="/galafis">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
