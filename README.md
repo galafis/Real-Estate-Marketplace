@@ -117,7 +117,6 @@ real_estate_marketplace/
 
 ![Imagem Hero](src/static/images/hero_image.jpg)
 
-
 ### Contribuição
 
 Contribuições são bem-vindas! Para sugestões ou melhorias, por favor, abra uma issue ou envie um pull request. Siga o `CONTRIBUTING.md` para mais detalhes.
@@ -240,18 +239,8 @@ real_estate_marketplace/
 
 ### Architecture Diagrams
 
-```mermaid
-graph TD
-    A[User] --> B(Web Browser)
-    B --> C{Flask Server}
-    C --> D[app.py]
-    D -- Renders --> E[templates/index.html]
-    D -- API Calls --> F[API Routes]
-    F -- Data --> G[In-memory Data / SQLite]
-    D -- Analytics --> H[analytics.R]
-    E -- Styles --> I[static/styles.css]
-    E -- Frontend Logic --> J[static/app.js]
-```
+![Diagrama de Arquitetura](docs/architecture_diagram.png)
+
 
 ### Contribution
 
