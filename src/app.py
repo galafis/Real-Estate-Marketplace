@@ -9,9 +9,10 @@ This demo uses in-memory storage for simplicity; swap with SQLite for persistenc
 from flask import Flask, render_template, request, jsonify
 from datetime import datetime
 import uuid
+import os
 
 app = Flask(__name__)
-app.config.update(SECRET_KEY='real_estate_secret_2024')
+app.config.update(SECRET_KEY = os.getenv("SECRET_KEY"))
 
 # ----------------------------------------------------------------------------
 # In-memory demo storage (replace with a proper DB in production)

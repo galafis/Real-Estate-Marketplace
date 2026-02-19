@@ -116,4 +116,7 @@ def create_directories():
         directory.mkdir(parents=True, exist_ok=True)
 
 # Initialize directories on import
-create_directories()
+
+
+if __name__ == '__main__':
+    create_directories()
